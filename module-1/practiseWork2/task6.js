@@ -1,7 +1,7 @@
-let height = 23 ;
+const height = 23 ;
 
-let width = 10 ;
+const width = 10 ;
 
-let s = height * width ;
+const s = height * width ;
 
 console.log( s + 'см' )

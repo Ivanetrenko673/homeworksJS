@@ -1,8 +1,8 @@
-let a1 = 5 + 3 ;
+let  a1 = 5 + 3 ;
 
 let a2 = 5 - 3 ;
 
-let a3 = 5 * 3 ;
+let  a3 = 5 * 3 ;
 
 let a4 = 5 / 3 ;
 
