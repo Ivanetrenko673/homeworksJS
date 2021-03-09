@@ -1,7 +1,7 @@
 const styles = ['Джаз' , 'Блюз']
-styles[2] =  'Рок-н-ролл';
+styles.push('Рок-н-ролл');
 
-styles[1] =  'Класика';
+styles.slice(1, 0,'Класика');
 
 console.log(styles.shift())
 
