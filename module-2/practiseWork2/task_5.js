@@ -1,23 +1,39 @@
 
 
-const myAverageScore = (a, b, c , d) => {
- let mark = (a + b +c + d) / myAverageScore.length;
- if (mark > 91 && mark< 100 ){
-     console.log("My average score: A")
- }else if (mark > 81 && mark< 90){
-    console.log("My average score: B")
- }else if (mark > 71 && mark< 80){
-    console.log("My average score: C")
- }else if ( mark <= 70 ){
-    console.log("My average score: D")
- } 
+const myAverageScore = function( array ) {
+   let total = 0 ;
+
+   for(const number of array ) {
+      total += number ;
+    
+   }
+
+const score = total / array.length;
+console.log(score)
+
+if(score <= 91 && score >= 100) {
+return 'Myaveragescore: A '
+}
+if(score <= 81 && score >= 90) {
+   return 'Myaveragescore: B '
+}
+if(score <= 71 && score >= 80) {
+   return 'Myaveragescore: C '
+ }
+if(score <= 70) {
+   return 'Myaveragescore: D '
+ }
+
 }
 
 
 
-myAverageScore(100, 75, 81, 96);
-myAverageScore(45, 63, 85, 70);
-myAverageScore(77, 82, 60, 58);
-myAverageScore(93, 99, 93, 96);
+console.log(myAverageScore([100, 75, 81, 96]));
+console.log(myAverageScore([45, 63, 85, 70]));
+console.log(myAverageScore([77, 82, 60, 58]));
+console.log(myAverageScore([93, 99, 93, 96]));
+
+
+
 
 

@@ -1,12 +1,11 @@
 
 
-const  myNewArrowFunction = ( a , b, ...manyMore ) => {
-    console.log("a", a);
-    console.log("b", b);
+const  myNewArrowFunction = (  ...manyMore ) => {
+    
     console.log("manyMoreArgs", manyMore);
 }
 
-myNewArrowFunction(1, 2 , 3)
+myNewArrowFunction(1, 2 , 3);
 
 myNewArrowFunction(100, 200, 300, 400, 500);
 
