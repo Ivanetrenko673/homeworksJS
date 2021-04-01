@@ -1,14 +1,19 @@
 const user = {
 
 };
+
 user.userName = "Іван" ;
 
-user.age = 12 ;
+user.age = 12;
 
-user.showUserName = console.log(user.userName); 
+user.showUserName = function () {
+    console.log(user.userName);
+  };
+  
+  user.showUserName()
 
-user.updateAge =  ;
+  user.updateAge = function() {
+      console.log(user.age += 1)
+  }
 
-console.log(user.updateAge);
-
- 
+  user.updateAge()
