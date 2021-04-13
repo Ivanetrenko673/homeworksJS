@@ -5,6 +5,7 @@ const salaries = {
     }
 
     salaries.sum = function () {
-        console.log(this.John + this.Ann + this.Pete)
+      suum  =  this.John + this.Ann + this.Pete
+      return suum
     }
-    salaries.sum()
+    console.log(salaries.sum());
